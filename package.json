@@ -1,0 +1,17 @@
+{
+  "name": "npc-builder",
+  "version": "1.0.0",
+  "description": "Website that builds and stores NPCs for use in a TTRPG",
+  "license": "ISC",
+  "author": "James Wilson",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "dev"
+  },
+  "dependencies": {
+    "express": "^5.3.0",
+    "react": "^19.3.1"
+  },
+  "devDependencies": {}
+}
