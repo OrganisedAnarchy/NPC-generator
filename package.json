@@ -7,11 +7,14 @@
   "type": "commonjs",
   "main": "app.js",
   "scripts": {
-    "test": "dev"
+    "devStart": "nodemon app.js"
   },
   "dependencies": {
+    "ejs": "^7.0.2",
     "express": "^5.3.0",
     "react": "^19.3.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
 }
