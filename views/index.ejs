@@ -10,6 +10,16 @@
         <h1>NPC Builder</h1>
         <button id="generateBtn">Generate NPC</button>
         <button id="buildBtn">Build NPC</button>
-        <div id="npcContainer"></div>
+        <div id="npcBuilder">
+            <form id="npcForm" action="/api/npc" method="POST">
+                <input type="text" id="npcName" name="npcName" placeholder="Enter NPC Name" required>
+                <input type="text" id="npcRace" name="npcRace" placeholder="Enter NPC Race" required>
+                <input type="text" id="npcClass" name="npcClass" placeholder="Enter NPC Class" required>
+                <input type="text" id="npcBackground" name="npcBackground" placeholder="Enter NPC Background" required>
+                <textarea id="npcTextarea" name="npcDescription" rows="10" cols="50"></textarea>
+
+                </textarea>
+                <button type="submit">Submit</button>
+        </div>
     </body>
 </html>

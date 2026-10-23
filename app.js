@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 })
 
 const npcRoutes = require('./api/npc.js');
-app.use('/api/', npcRoutes);
+app.use('/api/npc', npcRoutes);
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)

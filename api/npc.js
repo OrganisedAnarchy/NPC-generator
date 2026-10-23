@@ -1,22 +1,22 @@
 const express = require('express')
 const router = express.Router()
 
-router.post('/npc', (req, res) => {
+router.post('/', (req, res) => {
     res.send('NPC created successfully')
 }) 
 
-router.get('/npc', (req, res) => {
+router.get('/', (req, res) => {
     res.send('List of NPCs')
 })
 
-router.get('/npc/:id', (req, res) => {
+router.get('/:id', (req, res) => {
     const npcId = req.params.id;
     res.send(`NPC with ID: ${npcId}`);
 });
 
-/*router.get('/npc/:id', (req, res) => {
+/*router.get('/:id', (req, res) => {
   const npcId = req.params.id;
   res.send(`NPC with ID: ${npcId}`);
 })*/
 
-module.exports = router
+module.exports = router;
