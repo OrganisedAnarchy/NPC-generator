@@ -10,4 +10,7 @@ You need NPM installed on your system
 You will need a locally hosted Postgres Database (How you do that is up to you).
 
 ## Running the system locally
-You will need to adjust the .env 
+Create the .env and copy over everything from .env.example
+Fill in the .env variables.
+Startup your database
+Run the NPM init command
