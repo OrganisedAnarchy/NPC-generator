@@ -1,4 +1,6 @@
 # The NPC builder and Generator
+Currently Incomplete
+
 This system will have two versions, A generator that allows you to add a list of first names, last names or fill randomly from a preset list. As well as other details such as job, age, and it will randomly generate the NPCs from these paramaters.
 
 Or you can use the Builder wich is a wizard to help you create more unique memorable NPCs
