@@ -1,18 +1,20 @@
-# The NPC builder and Generator
-Currently Incomplete
+# TTRPG NPC Generator
 
-This system will have two versions, A generator that allows you to add a list of first names, last names or fill randomly from a preset list. As well as other details such as job, age, and it will randomly generate the NPCs from these paramaters.
+An early-stage Node.js project exploring tools for creating non-player characters for tabletop role-playing games.
 
-Or you can use the Builder wich is a wizard to help you create more unique memorable NPCs
+## Project status
 
-All will be saved to a database for you to fetch in the future.
+This is a prototype, not a finished generator. The Express app currently renders an EJS home page and exposes placeholder routes at `/api/npc`; NPC creation, database persistence, and the planned guided builder are not implemented yet.
 
-## Technologies Required
-You need NPM installed on your system
-You will need a locally hosted Postgres Database (How you do that is up to you).
+The intended direction is to support both quick generation from configurable name and character details and a guided builder for more distinctive NPCs.
 
-## Running the system locally
-Create the .env and copy over everything from .env.example
-Fill in the .env variables.
-Startup your database
-Run the NPM init command
+## Run locally
+
+Install Node.js and npm, then run:
+
+```sh
+npm install
+npm run devStart
+```
+
+Open <http://localhost:3000>. The current prototype does not require a database to start.
